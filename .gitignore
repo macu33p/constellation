@@ -1,0 +1,14 @@
+# Allow only reviewed application source and documentation.
+# New files must be explicitly allowed before Git will track them.
+# This excludes local exports, credentials, environment files, logs,
+# databases, editor settings, caches, and machine-specific files.
+*
+!/.gitignore
+!/README.md
+!/Launch.command
+!/dist/
+/dist/*
+!/dist/index.html
+!/dist/style.css
+!/dist/app.js
+!/dist/timeline.js
